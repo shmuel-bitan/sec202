@@ -1,0 +1,5 @@
+192.168.1.4 - - [28/Jun/2024:10:27:38 +0000] "GET /index.php?id=1' OR '1'='1'-- HTTP/1.1" 200 4523 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+192.168.1.5 - - [28/Jun/2024:10:27:40 +0000] "POST /login.php HTTP/1.1" 500 100 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+192.168.1.5 - - [28/Jun/2024:10:27:40 +0000] "POST /login.php HTTP/1.1" 200 128 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+192.168.1.6 - - [28/Jun/2024:10:27:42 +0000] "GET /products.php?category=1 UNION SELECT username, password FROM users-- HTTP/1.1" 200 6231 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+192.168.1.7 - - [28/Jun/2024:10:27:44 +0000] "GET /search.php?query=' OR '1'='1'-- HTTP/1.1" 200 3465 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
